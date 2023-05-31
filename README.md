@@ -8,6 +8,7 @@ Some of the features that can be found in CryptoSelect include:
 <br>
 2 APIs used for information retrieval:
 <br>
+<br>
 https://www.coingecko.com/api
 <br>
 <br>
