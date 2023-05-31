@@ -2,7 +2,7 @@ My second project for John Bryce fullstack class using HTML, CSS3, JAVASCRIPT, J
 
 Some of the features that can be found in CryptoSelect include:
 
-Coin of interest selection by toggle switch.
+<li>Coin of interest selection by toggle switch.</li>
 Expandable information per coin on the homepage.
 Search Capabilities.
 2 APIs used for information retrieval:
