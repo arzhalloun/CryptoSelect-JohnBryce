@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- JQUERY GOOGLE CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+  <!-- FONT AWESOME -->
+ <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+   <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+  <!-- Chart -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+   <!-- STYLE CSS & Responsive-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+
+
+  <title>CryptoNite - Porject JB</title>
+
+</head>
+
+<body>
+    <div class="bg">
+    <div id="mymodal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" id="modaldialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">You selected one too many coins.</h5>
+            </div>
+            <div class="modal-body" id="modalbody">
+              <p id="modalbody">To add this coin, you must unselect one of the following:</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn modalbtn" id="keepcurrent" data-dismiss="modal">Keep Current Selection</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  <div class="container-fluid">
+    <div class="top">
+      <img id="logo" src="logo.png" alt="logo" />
+      </div>
+      <div class="maintitle">
+        <h1>ryptoNite</h1>
+      </div>
+  <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" id="home" class="focus" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="livereports" href="#">Live Reports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="about" href="#">About</a>
+        </li>
+        <li class="nav-item">
+        <span class="text-info"><u>Selected Coins:</u> <span id="selectedcoins" class=""></span></span>
+        </li>
+      </ul>
+
+      <span id="searchmsg" class="text-warning mr-3"></span>
+      <div class="form-inline" id="search">
+        <input class="form-control mr-sm-2" type="search" id = "search-input" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info  my-2 my-sm-0" id = "search-btn" type="submit">Search</button>
+      </div>
+    </div>
+  </nav>
+
+
+   <!-- MY JS -->
+   <script src="script.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+   
+   
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+ 
+ 
+  
+ </body>
+ 
+ </html>
