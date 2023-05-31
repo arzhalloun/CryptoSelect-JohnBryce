@@ -7,7 +7,10 @@ Some of the features that can be found in CryptoSelect include:
 <li>Search Capabilities.</li>
 <br>
 2 APIs used for information retrieval:
+<br>
 https://www.coingecko.com/api
+<br>
 https://min-api.cryptocompare.com/
+<br>
 To get started, feel free to select up to 5 coins to display in the live report. If you would like to choose a sixth, you'll have to replace one of your currently selected coins with a new one.
 
